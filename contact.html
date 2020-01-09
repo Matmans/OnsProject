@@ -12,9 +12,24 @@
 
     body{
         font-family: "Roboto";
-        font-weight: 800;
-        text-transform: uppercase;
+        
         background-color: rgba(white, .8);
+    }
+    h1{
+        font-weight: 800;
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+    .intro{
+        font-size: 1.6em;
+    }
+    .derde, .vierde, .vijfde{
+        margin-top: 30px;
+    }
+
+    .bericht{
+        height: 100px;
+        
     }
 
 </style>
@@ -25,20 +40,45 @@
         <div class="row">
             <h1>Contact</h1>
         </div>
+        <div class="row">
+            <p class="intro">Laat hier jouw contactgegevens achter!</p>
+        </div>
 
         <div class="row">
             <div class="col">
-                <label for="">First Name</label>
-                    <input type="text" class="form-control">
+                <label for="">Voornaam</label>
+                    <input type="text" class="form-control" placeholder="Voornaam">
             </div>
             <div class="col">
-                <label for="">First Name</label>
-                    <input type="text" class="form-control">
+                <label for="">Achternaam</label>
+                    <input type="text" class="form-control" placeholder="Achternaam">
+            </div>
+        </div>
+        <div class="row derde">
+
+            <div class="col">
+                <label for="">E-mail</label>
+                    <input type="text" class="form-control" placeholder="E-mail">
             </div>
         </div>
 
+        <div class="row vierde">
+            <div class="col">
+                <label for="">Onderwerp</label>
+                    <input type="text" class="form-control" placeholder="Onderwerp">
+            </div>
+        </div>
 
+        <div class="row vijfde">
+            <div class="col">
+                <label for="">Bericht</label>
+                    <input type="text" class="form-control bericht" placeholder="Hoi Maty, Joy en Frauke!">
+            </div>
+        </div>
+    
     </div>
+
+   
     
 </body>
 </html>
